@@ -55,11 +55,13 @@ img{
     padding: 12px 38px;
     display: inline-block;
     background-color: var(--primary);
+    min-width: 270px;
     font-size: 18px;
     border: 0;
     line-height: 1.5;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
     color: #fff;
     text-transform: uppercase;
     transition: background-color 0.3s ease;
@@ -250,4 +252,46 @@ img{
     background-color: #ddd;
     box-shadow: 16px 0 0 0 #ddd,
     32px 0 0 0 #ddd;
+}
+
+/* PROMO*/
+.promo {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.promo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo-img{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* RUNNERS */
+.runners {
+    padding-top: 240px;
+    padding-bottom: 240px;
+    background-image: url(/img/runners\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.runnners-lead-cta {
+    margin-left: auto;
+}
+
+.lead-cta-white .lead-cta-heading{
+    color: #fff;
+}
+
+.lead-cta-white .lead-cta-text{
+    color: #fff;
+    border-color: #fff;
 }
